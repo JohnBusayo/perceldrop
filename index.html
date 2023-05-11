@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="Landpage.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200;700;800;900&family=Roboto+Condensed:wght@300;400;700&family=Roboto:ital,wght@0,300;0,400;0,500;1,100;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- <nav>
+       <div class="logo">
+        <img src="Logo.jpg" alt="" style="width: 40px;">
+        <h5 style="font-weight: 800; font-size: 17px;">Percel<span class="drop">drop</span></h5>
+       </div>
+
+         <div class="menu">
+
+            <div class="logo-toggle">
+                <img src="Logo.jpg" alt="" style="width: 40px;">
+                <h5 style="font-weight: 800; font-size: 17px;">Percel<span class="drop">drop</span></h5>
+               </div>
+
+            <ul class="nav-links">
+                <li><a href="">Home</a></li>
+                <li><a href="">Our mission</a></li>
+                <li><a href="">Business solution</a></li>
+                <li><a href="">About us</a></li>
+                <li><a href="">How it works</a></li>
+                <li><a href="">Login</a></li>
+               </ul>
+         </div>
+
+        <i class="fa fa-bars" style="font-size:24px"></i>
+    </nav> -->
+
+    <nav class="navbar">
+        <div class="logo">
+            <img src="Logo.jpg" alt="" style="width: 40px;">
+            <h5 style="font-weight: 800; font-size: 17px;">Percel<span class="drop">drop</span></h5>
+           </div>
+        <div class="navbar-toggle">
+          <button class="menu-btn" onclick="toggleMenu()">☰</button>
+        </div>
+        <ul class="navbar-menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Our mission</a></li>
+          <li><a href="#">Business solution</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">How it works</a></li>
+          <button id="openModal">Login in</button>
+        </ul>
+      </nav>
+                  <!-- SIGN IN MODAL -->
+                  <div id="myModal" class="modal">
+                    <div class="modal-content">
+                      <span class="close">&times;</span>
+                      <div class='center'>
+                        <img class='middle' src="s1.avif" alt="" />
+                        <img class='img1' src="group2.jpg" alt="" /> 
+                        <img class='img2 'src="group2.jpg" alt="" /> 
+                        <img class='img3' src="group2.jpg" alt="" /> 
+                        <img class = 'img4' src="group2.jpg" alt="" /> 
+                        <img class='img5'src="group2.jpg" alt="" /> 
+                        <img class='img6' src="group2.jpg" alt="" /> 
+                        <div class='img3'></div>
+                        <div class='img11'></div>
+                        <div class='img22'></div>
+                        <div class=  img33></div>
+                        <div class='img44'></div>
+                        <div class='img55'></div>
+                        <div class='img66'></div>
+                        </div>
+                       <h4 class="welcome">Welcome back</h4>
+                      <div class ='second_div'>
+                      <h5 class ="number">Enter your phone number here</h5>
+                      <div class ='input_div'><input type="text"/></div>
+                       <button id="openModal" class="login">Login</button>
+                    </div>
+                  </div>
+                  </div>
+
+                  <!-- VERIFY MODAL -->
+                  <div id="myModal" class="modal">
+                    <div class="modal-content">
+                      <span class="close">&times;</span>
+                      <div class='center'>
+                        <img class='middle' src="s1.avif" alt="" />
+                        <img class='img1' src="group2.jpg" alt="" /> 
+                        <img class='img2 'src="group2.jpg" alt="" /> 
+                        <img class='img3' src="group2.jpg" alt="" /> 
+                        <img class = 'img4' src="group2.jpg" alt="" /> 
+                        <img class='img5'src="group2.jpg" alt="" /> 
+                        <img class='img6' src="group2.jpg" alt="" /> 
+                        <div class='img3'></div>
+                        <div class='img11'></div>
+                        <div class='img22'></div>
+                        <div class=  img33></div>
+                        <div class='img44'></div>
+                        <div class='img55'></div>
+                        <div class='img66'></div>
+                        </div>
+                       <h4 class="welcome">We have sent a code to </h4>
+                      <div class ='second_div'>
+                      <h5 class ="number">Enter your phone number here</h5>
+                      <div class ='input_div'><input type="text"/></div>
+                       <button id="openModal" class="login">Login</button>
+                    </div>
+                  </div>
+                  </div>
+
+    <div class="div11">
+
+        <span>Sending <span style="color:#0399C9;">parcel</span> for less and fast.</span>
+        <p>Track your package every step of the way with our advanced parcel tracking system, providing you with real-time updates on the status of your delivery, so you can stay informed and in control.</p>
+        <button>sign up now</button>
+        <img src="unsplash.png" alt="">
+        
+    </div>
+    <div class="div1">
+        <h2>OUR MISSION</h2>
+        <span>Creating a better <span style="color: #0399C9;">future</span> together.</span>
+        <p>We are commited to providing seamless and cost effective delivery experience. Connecting people from different part of Nigeria through our technology based platform. Parcel drop strives to create an environmental friendly delivery platform where senders and deliverer can connect and transact, with real life tracking of package to ensure timely delivery.</p>
+        <button>sign up now</button>
+        <img src="unsplash.png" alt="">
+    </div>
+
+    <div class="div1">
+        <h2>About Us</h2>
+        <span>Experience the <span style="color: #0399C9;">difference</span>.</span>
+        <p>Parcel drop was founded in 2023 consisting of
+            teams of passionate individuals who strongly
+            believe that peer to peer delivery can change
+            delivery system in nigeria.</p>
+        <button>Read more</button>
+        
+    </div>
+    <div class="div1">
+        <h2>BUSINESS SOLUTION.</h2>
+        <span>Discover <span style="color: #0399C9;">innovative</span> business solution.</span>
+        <p>At parcel drop we are committed to ensure timely and secure delivery process. Through this type of delivery service user will be able to get deliveries done at a lower cost than the traditional delivery service. This creates jobs opportunities for deliverer which alleviates unemployment in Nigeria. We are a team of passionate individuals who is looking forward to making delivery convenient without having the user leave his home.</p>
+        <button>sign up now</button>
+        <img src="unsplash.png" alt="">
+    </div>
+
+    <div class="div2">
+        <h2>How it works</h2>
+        <span> <span style="color: #0399C9;">6 steps</span> that helps you get your parcel.</span>
+        
+        <div class="div3">
+            <div class="circle"><span style="font-size: 40px; color: white;">1</span></div>
+            <h4>Registration</h4>
+            <p>The user who wants to send  parcel can create an account by providing neccessary information required,or login if the user has an existing parcel drop account.</p>
+            
+        </div>
+        <div class="div3">
+            <div class="circle"><span style="font-size: 40px; color: white;">2</span></div>
+            <h4>Create a request</h4>
+            <p>The user creates a request by providing necessary details such as its pickup location, description of the parcel. If necessary the dimension and weight of the parcel.</p>
+            
+        </div>
+        <div class="div3">
+            <div class="circle"><span style="font-size: 40px; color: white;">3</span></div>
+            <h4>Find a deliverer</h4>
+            <p>The user search for deliverers on the website who are travelling to the same location u intend to send the parcel to. The deliverer can view the details of the request, he can either accept or reject the request.</p>
+            
+        </div>
+        <div class="div3">
+            <div class="circle"><span style="font-size: 40px; color: white;">4</span></div>
+            <h4>Make payment</h4>
+            <p>The user can make payment to the deliverer but the website holds the payment in escrow until the delivery is successful.</p>
+            
+        </div>
+        <div class="div3">
+            <div class="circle"><span style="font-size: 40px; color: white;">5</span></div>
+            <h4>Track parcel</h4>
+            <p>The user can track the parcel from the pickup stage till the delivery stage</p>
+            
+        </div>
+        <div class="div3">
+            <div class="circle"><span style="font-size: 40px; color: white;">6</span></div>
+            <h4>Comfirm delivery</h4>
+            <p>Once the sender confirm the delivery the payment is now released to the deliverer.</p>
+            
+        </div>
+            
+    </div>
+
+    <div class="div1">
+        <span>Experience a <span style="color: #0399C9;">seamless</span> delivery process.</span>
+        <p>Experience Seamless Delivery Process: Effortlessly Receive Your Orders with Our Smooth Delivery Experience. Enjoy Hassle-Free Delivery of Your Products and Services, Every Time.</p>
+        <button>sign up now</button>
+        
+    </div>
+
+
+    <div style="width: 70%; height: 60px; display: flex; justify-content: center; align-items: center; margin: 10px auto;">
+        <img src="Logo.jpg" alt="" style="width: 40px;">
+        <h5 style="font-weight: 800; font-size: 17px;">Percel<span class="drop">drop</span></h5>
+       </div>
+    </main>
+
+<script src="index.js"></script>
+</body>
+</html>
